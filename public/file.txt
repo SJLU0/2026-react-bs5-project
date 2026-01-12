@@ -15,4 +15,8 @@ dist
 需要手動新增
 "deploy": "gh-pages -d dist"
 
-分開部署：將 Vite 專案打包並部署
+分開部署：
+將 Vite 專案打包並部署
+
+影片：如何在 Vite 環境中，使用 Bootstrap function
+這裡面有提到如何用 React 去操作 BS5 開關
