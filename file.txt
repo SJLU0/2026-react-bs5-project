@@ -1,0 +1,10 @@
+安裝順序：
+node 24.12.0 LTS
+Vite 
+npm install 
+
+資料夾結構：
+public 靜態檔案
+
+src
+所有檔案須在 main.jsx 引入才會被編譯，倒進 <App /> 中
