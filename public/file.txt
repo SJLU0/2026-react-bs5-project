@@ -11,4 +11,8 @@ src
 所有檔案須在 main.jsx 引入才會被編譯，倒進 <App /> 中
 
 dist
-編譯成html、css可供
+編譯成html、css可供瀏覽器讀取
+需要手動新增
+"deploy": "gh-pages -d dist"
+
+分開部署：將 Vite 專案打包並部署
