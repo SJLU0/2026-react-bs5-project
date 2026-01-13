@@ -5,6 +5,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "./assets/all.scss";
+import Footer from "./components/Footer";
 
 function App() {
   return (
