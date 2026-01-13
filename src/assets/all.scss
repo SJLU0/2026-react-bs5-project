@@ -4,8 +4,5 @@
 
 @import "bootstrap/scss/bootstrap";
 
-$bg: lavender;
-
-body {
-  background: $bg;
-}
+// 自訂scss
+@import "./footer";

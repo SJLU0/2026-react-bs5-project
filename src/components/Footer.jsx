@@ -4,36 +4,51 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-black">
+    <footer className="bg-black position-relative py-5">
+      {/* py-5 要改成 py-16 */}
+
+      {/* 🚩滿版山脈圖 */}
+      <div className="footer-decor-img position-absolute w-100 top-0 start-0 z-3">
+        <img
+          src="/imgs/footer-decor-lg.svg"
+          className="w-100 d-block"
+          alt="footer裝飾山脈圖"
+        />
+      </div>
+
       <div className="container">
         <div className="row">
           {/* 🚩左欄logo + nav */}
-          <div class="col-lg-8">
-            <div class="brand__logo d-flex">
-              {/* mb-13 */}
+          <div className="col-lg-8">
+            <div className="brand__logo d-flex flex-column">
+              {/* mb-13 52px */}
               <a href="/">
-                <img src="/imgs/logo-sm.svg" alt="footer logo圖" />
+                <img
+                  src="/imgs/logo-sm.svg"
+                  className="mb-1"
+                  alt="footer logo圖"
+                />
               </a>
-              <p class="brand__logo-slogan ">
+              <p className="brand__logo-slogan ">
                 {/* text-black-100 */}
                 每一步，找回生活的呼吸
               </p>
             </div>
-            <nav class="footer__nav">
-              <ul class=" list-unstyled d-flex">
+            <nav className="footer__nav">
+              <ul className="list-unstyled d-flex">
                 {/* ul gap-8 */}
-                <li class="decor-lined">
-                  <a href="/" class="text-decoration-none text-white ">
+                <li className="decor-lined">
+                  <a href="/" className="text-decoration-none text-white ">
                     主題活動
                   </a>
                 </li>
-                <li class="decor-lined">
-                  <a href="/" class="text-decoration-none text-white ">
+                <li className="decor-lined">
+                  <a href="/" className="text-decoration-none text-white ">
                     步道總覽
                   </a>
                 </li>
                 <li>
-                  <a href="/" class="text-decoration-none text-white ">
+                  <a href="/" className="text-decoration-none text-white ">
                     熱門步道
                   </a>
                 </li>
