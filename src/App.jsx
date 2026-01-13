@@ -1,3 +1,5 @@
+// p,ul,h1-h6 預設margin要清掉
+
 import { useEffect, useState } from "react";
 
 import axios from "axios";
@@ -6,14 +8,14 @@ import viteLogo from "/vite.svg";
 // import "./App.css"; 暫時不引入
 import "./assets/all.scss";
 import Header from "./components/Header";
-import Index from "./pages/Index";
 import Footer from "./components/Footer";
+
+import Index from "./pages/Index";
 
 function App() {
   return (
     <div>
       <Header />
-      {/* 其他內容... */}
       <Index />
       <Footer />
     </div>
