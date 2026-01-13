@@ -176,6 +176,27 @@ $cyan-700: shade-color($cyan, 40%) !default;
 $cyan-800: shade-color($cyan, 60%) !default;
 $cyan-900: shade-color($cyan, 80%) !default;
 
+// yestep自定義變數:primary
+$primary-50: #eef0e9;
+$primary-100: #dde0d5;
+$primary-200: #a3b082;
+$primary-300: #4f6947;
+
+// yestep自定義變數:black
+$black-50: #f0f0f1;
+$black-100: #d1d2d3;
+$black-200: #babcbe;
+$black-300: #9b9da1;
+$black-400: #878a8e;
+$black-500: #696d72;
+$black-600: #606368;
+$black-700: #4b4d51;
+$black-800: #3a3c3f;
+$black-900: #2c2e30;
+
+// yestep自定義變數:red
+$red: #dc5c53;
+
 $blues: (
   "blue-100": $blue-100,
   "blue-200": $blue-200,
@@ -318,6 +339,27 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "dark": $dark,
+
+  //yestep自定義變數: primary
+  "primary-50": $primary-50,
+  "primary-100": $primary-100,
+  "primary-200": $primary-200,
+  "primary-300": $primary-300,
+
+  //yestep自定義變數: black
+  "black-50": $black-50,
+  "black-100": $black-100,
+  "black-200": $black-200,
+  "black-300": $black-300,
+  "black-400": $black-400,
+  "black-500": $black-500,
+  "black-600": $black-600,
+  "black-700": $black-700,
+  "black-800": $black-800,
+  "black-900": $black-900,
+
+  //yestep自定義變數: red
+  "red": $red,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -411,6 +453,7 @@ $gradient: linear-gradient(
 // You can add more entries to the $spacers map, should you need more variation.
 
 // scss-docs-start spacer-variables-maps
+// yestep自定義spacer變數
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
@@ -428,6 +471,7 @@ $spacers: (
   12: $spacer * 3,
   13: $spacer * 3.25,
   14: $spacer * 3.5,
+  15: $spacer * 3.75,
   16: $spacer * 4,
   32: $spacer * 8,
 ) !default;

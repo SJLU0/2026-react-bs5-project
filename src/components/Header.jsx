@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="bg-black py-6">
+    <header className="bg-black-100 py-6">
       <div className="container">
         <div className="header__links d-flex justify-content-between align-items-center">
           <div className="header__nav d-flex align-items-center">

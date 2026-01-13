@@ -4,17 +4,8 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-black position-relative py-5">
+    <footer className="bg-black py-5">
       {/* py-5 要改成 py-16 */}
-
-      {/* 🚩滿版山脈圖 */}
-      <div className="footer-decor-img position-absolute w-100 top-0 start-0 z-3">
-        <img
-          src="/imgs/footer-decor-lg.svg"
-          className="w-100 d-block"
-          alt="footer裝飾山脈圖"
-        />
-      </div>
 
       <div className="container">
         <div className="row">
